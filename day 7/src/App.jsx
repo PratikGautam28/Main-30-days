@@ -14,7 +14,7 @@ const App = () => {
     text:inputText,
     isCompleted:false,
   }
-  setTodoList(...todoList,newTodo);
+  setTodoList([...todoList,newTodo]);
 setInputText("");
   }
 
